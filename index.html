@@ -13,8 +13,43 @@
     <!-- HINT: Only uncomment one of the above at a time and make sure to refresh your browser to see the effects! -->
 
     <!-- Re-comment both of the above <link> tags once you've seen their effect -->
-
     <style>
+    html {
+      font-size: 20px;
+      }
+      h1 {
+        font-family: helvetica;
+        border-bottom: 10px solid #000000;
+      }
+      h2 {
+        font-family: arial;
+      }
+    header {
+      color: RGB(72, 61, 139);
+      text-align: center;
+    }
+  header h1 {
+      color: red;
+    }
+    header h2{
+      color: green;
+    }
+    article{
+      color: RGB(165, 42, 42);
+    }
+    section a{
+      color: RGB(105, 105, 105);
+
+      }
+      .box
+      h2 {
+        color: yellow;
+      }
+      .cool
+      h2 {
+        color: pink;
+      }
+
       /* Put your styles here to get started */
 
       /*
@@ -25,7 +60,7 @@
     </style>
   </head>
   <body>
-    <header>
+    <header
       <h1>CSS Selectors</h1>
       <h2>Playground</h2>
       <p>
@@ -44,7 +79,7 @@
         </p>
       </header>
 
-      <section>
+      <section class="box">
         <h2>Tag Selectors</h2>
         <p>
           Tag selectors are the broadest type of selector. They'll select all
@@ -109,7 +144,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="cool">
         <h2>ID Selectors</h2>
         <p>
           ID selectors are the most specific type of selector. Since in any
